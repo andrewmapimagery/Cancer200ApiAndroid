@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "348733677919",
+    "project_id": "cancer-200-sdk-demo",
+    "storage_bucket": "cancer-200-sdk-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348733677919:android:0768446495997fbf0456ea",
+        "android_client_info": {
+          "package_name": "com.mapimagery.cancer200sdkdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348733677919-1ju6a41tftl0l8gcd3mj8a89765b39vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsamtIUpp9URYJKletmYVbKZrVewopGtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348733677919-1ju6a41tftl0l8gcd3mj8a89765b39vc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
