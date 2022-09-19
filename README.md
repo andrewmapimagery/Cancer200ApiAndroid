@@ -138,6 +138,16 @@ A valid google maps API Key is required for the imbedded map to work
             android:value="@integer/google_play_services_version" />
 ```
 
+## AndroidManifest.xml entry related to clear text traffic
+
+The library uses clear text comunication to talk to the mapswim.net servers to send and recieve tracking information and location of riders on the map.   So the following AndroidManifest.xml property needs to be true
+
+```
+        android:usesCleartextTraffic="true"
+```
+
+
+
 
 
 ## License
