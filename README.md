@@ -30,7 +30,7 @@ in an app.   Preferences and Routes Activities are launched by buttons on the to
 
 
 ### Initialisation of the Cancer200Api
-The following initialsation code needs to be called in the onCreate() function of the apps MainActivity, in order so that the Api can be initialised for correct operation.
+The following initialisation code needs to be called in the onCreate() function of the apps MainActivity, in order so that the Api can be initialised for correct operation.
 
 
 ```
@@ -49,7 +49,7 @@ class MainActivity : Activity() {
 ```
 
 ### Imbedded MapActivity
-The main integration is via MapActivity public class from the Cancer200Api library.  An example can be seen in the test app. This MapViewController class expects that the Cancer200.initApi(mainActivity) has been called prior to its instantiation.
+The main integration is via MapActivity public class from the Cancer200Api library.  An example can be seen in the test app. This MacActivity class expects that the Cancer200.initApi(mainActivity) has been called prior to its instantiation.
 
 ```kotlin
 class MainActivity : Activity() {
