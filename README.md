@@ -1,9 +1,9 @@
 # Cancer200 Api Android Package
 
 ## Summary
-* The Cancer200Api Android Package is a binary Android library that allows a cut down version of the Cancer200 map and associated tracking tools to be imbedded into another app. It has a simple interface and is packaged as an .aar with separate both debug and release libraries.
+* The Cancer200Api Android Package is a binary Android library that allows a cut down version of the Cancer200 map and associated tracking tools to be imbedded into another app. It has a simple interface and is packaged as an .aar with separate debug and release libraries.
 * Included in this repo is an example app showing a simple integration.
-* In addition to linking with the library there are some capabilities and other configuration that is required for the sdk to work imbedded in Android app because the sdk needs various location permissions and other Manifest configugration to function properly.  Also required are dependen Android open source libraries which can be seen in the demo project config.
+* In addition to linking with the library there are some capabilities and other configuration that is required for the sdk to work imbedded in Android app because the sdk needs various location permissions and other Manifest configugration to function properly.  Also required are dependent Android open source libraries which can be seen in the demo project config.
 
 
 ## Requirements
@@ -26,7 +26,7 @@ into the host app should be sufficient
 See the example app Cancer200SdkDemo for a working example:
 
 **Cancer200SdkDemo** - A simple example which opens a MapActivity Activity as the main window
-in an app.   Preferences and Routes Activities are launced by buttons on the top left of the Map Activity.  Resources and object code versions of the Activities are contained in the libary
+in an app.   Preferences and Routes Activities are launched by buttons on the top left of the Map Activity.  Resources and object code versions of the Activities are contained in the libary
 
 
 ### Initialisation of the Cancer200Api
