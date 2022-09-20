@@ -68,6 +68,33 @@ class MainActivity : Activity() {
 }
 ```
 
+### Alternative integration via MapSwimMapFragment
+
+An alternative integration is possible via the public MapSwimMapFragment class from the Cancer200Api library.   The demo app has been modified to show this kind of integration.
+This MapSwimMapFragment class expects that the Cancer200.initApi(mainActivity) has been called prior to its instantiation.  Note that the core Android Fragment implementation (android.app.FragmentManager & android.app.FragmentTransaction) needs to be used, rather than the androidx varient as some of the underlying google map functionality uses this kind of fragment.
+
+```kotlin
+class MainActivity : Activity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        // Init the Map Api
+        Cancer200.initApi(this)
+
+        setContentView(R.layout.map_activity_container)
+
+        if (savedInstanceState == null) {
+            val fragMan: FragmentManager? = this.fragmentManager
+            val fragTransaction: FragmentTransaction? = fragMan?.beginTransaction()
+            fragTransaction?.add(R.id.fragment_container_view, MapSwimMapFragment())
+            fragTransaction?.commit()
+        }
+    }
+}
+```
+
+
+
 ### AndoidManifest.xml Permission Configuration
 A set of Mapping, Location and Service permissions are required for the Imbedded map an tracking functionality to work.
 
