@@ -1,7 +1,8 @@
 package com.mapimagery.cancer200sdkdemo
 
 import android.app.Activity
-6004
+import android.app.FragmentManager
+import android.app.FragmentTransaction
 import android.os.Bundle
 import com.mapswim.cancer200sdk.Cancer200
 import com.mapswim.cancer200sdk.MapSwimMapFragment
